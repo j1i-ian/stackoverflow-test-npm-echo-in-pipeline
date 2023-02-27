@@ -1,0 +1,28 @@
+name: moreden-api-backend
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  test-sample-echo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Initial node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: myecho
+        run: |
+          npm run myecho
+      - name: silent myecho
+        run: |
+          npm run -s myecho
+      - name: silent myecho with default npm
+        run: |
+          npm run silent_myecho
+      - name: silent myecho
+        run: |
+          npm run -s silent_myecho
+

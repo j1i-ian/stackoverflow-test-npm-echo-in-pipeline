@@ -1,0 +1,22 @@
+{
+  "name": "stackoverflow-test-npm-echo-in-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myecho": "echo sample",
+    "silent_myecho": "npm run -s myecho"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j1i-ian/stackoverflow-test-npm-echo-in-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j1i-ian/stackoverflow-test-npm-echo-in-pipeline/issues"
+  },
+  "homepage": "https://github.com/j1i-ian/stackoverflow-test-npm-echo-in-pipeline#readme"
+}
